@@ -2,7 +2,7 @@ name: Tester
 on:
   schedule:
     - cron: '* * * * *'
-    workflow_dispatch:
+  workflow_dispatch:
   run-script:
     runs-on: ubuntu-latest
     steps:
